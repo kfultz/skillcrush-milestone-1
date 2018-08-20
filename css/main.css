@@ -1,0 +1,164 @@
+/**BASE**/
+
+body {
+	font-family:'Roboto', sans-serif;
+}
+
+/**GRID**/
+
+.full-width {
+	width: 1400px;
+	float: left;
+	margin: auto;
+}
+
+.half-width {
+	width: 550px;
+	float: left;
+	height: 350px;
+	margin-left: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/**HEADER**/
+
+header {
+	height: 800px;
+	background: url('../img/hero-image.png');
+	background-size: 1500px 800px;
+}
+
+header h1 {
+	color: #bdbf09;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	padding-top: 300px;
+	
+}
+
+header h2 {
+	color: #087e8b;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+/**PORTFOLIO**/
+
+#portfolio {
+	height: 1000px;
+}
+
+#portfolio h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 36px;
+	color: #095156;
+}
+
+#portfolio h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #095156;
+	text-align: left;
+}
+
+#portfolio p {
+	font-size: 24px;
+	color: #095156;
+}
+
+/**ABOUT**/
+
+#about {
+	height: 650px;
+	background-color: #087e8b;
+}
+
+#about h3 {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#about h4 {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+
+#about p {
+	color: white;
+	font-size: 24px;
+}
+
+#about img {
+	width: 500px;
+	height: 400px;
+}
+
+
+/**CONTACT**/
+
+#contact {
+	height: 500px;
+	background-color: #095156; 
+}
+
+#contact h3 {
+	color:white;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-size: 36px;
+}
+
+#contact h4 {
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	align: center;
+}
+
+#contact p {
+	text-align: center;
+}
+
+#contact ul {
+	list-style: none;
+	display: block;
+	margin-left: 50px;
+}
+
+#contact ul li{
+	display: inline-block;
+	padding: 5px;
+}
+
+#contact ul li img {
+	padding-left: 15px;
+}
